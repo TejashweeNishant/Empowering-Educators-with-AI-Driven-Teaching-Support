@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             // Send message to backend and get response
-            const response = await fetch('http://localhost:5003/chat', {
+            const response = await fetch('https://empowering-educators-with-ai-driven-9h0h.onrender.com/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
